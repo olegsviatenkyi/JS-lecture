@@ -27,12 +27,12 @@ do{
         
         var eur = prompt ('Enter the amount of euros');}
 
-while(isNaN(eur) || eur.match(/\s/) || !eur.match(/\w/) eur <= 0);
+while(isNaN(eur) || eur.match(/\s/) || !eur.match(/\w/) || eur <= 0);
 do{
         
         var usd = prompt ('Enter the amount of dollars');}
 
-while(isNaN(usd) || usd.match(/\s/) || !usd.match(/\w/) usd <= 0);
+while(isNaN(usd) || usd.match(/\s/) || !usd.match(/\w/) || usd <= 0);
 var uah;
 var eur_usd = 1.19;
 var eur_uah = 32.18;
